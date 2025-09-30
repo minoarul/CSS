@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(16, 17, 17);
+    color: rgb(247, 246, 248);
+    padding: 1%;
+    justify-content: space-between;
+
+}
+
+.home{
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    
+    
+}
+
+.home a{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+}
