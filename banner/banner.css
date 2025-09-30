@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    display: flex;
+    margin: 10px;
+    padding: 60px;
+    background-color: blue;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+   
+}
+.second{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    
+    
+}
+
+}
+    

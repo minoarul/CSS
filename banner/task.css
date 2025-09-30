@@ -52,7 +52,7 @@
 
 .container{
     padding: 20px;
-    background-color: rgb(32, 32, 227);
+    background-image: url(https://picsum.photos/1200/800);
     border: solid 8px gold;
     border-radius: 30px;
 }
