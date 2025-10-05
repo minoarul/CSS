@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.git{
+    display: flex;
+    background-color: black;
+    margin: 5px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+    gap: 10px;
+
+}
+.git1 a{
+    color: aliceblue;
+    text-decoration: none;
+
+    
+    
+
+}
+.git1{
+    display: flex;
+    gap: 10px;
+}
+
+    

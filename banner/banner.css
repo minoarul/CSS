@@ -5,12 +5,17 @@
 }
 .first{
     display: flex;
-    margin: 10px;
+    margin: 60px;
+    padding: ;
+    border-style: dashed;
     padding: 60px;
-    background-color: blue;
+    background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?cs=srgb&dl=daylight-environment-forest-459225.jpg&fm=jpg);
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    height: 600px;
+    
+    
 
 
    
