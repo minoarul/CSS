@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class And Positions</title>
+    <link rel="stylesheet" href="psedoclass.css">
+    <style>
+        .main{
+            background-image: url(https://images.pexels.com/photos/220067/pexels-photo-220067.jpeg?cs=srgb&dl=background-blur-bright-220067.jpg&fm=jpg);
+            height: 100vh;
+
+        }
+        *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+}
+.ques1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    font-size: 18px;
+    
+}
+.ques1 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.ques1 a::after{
+    margin-left: 10px;
+    content: "   -click here";
+     }
+.ques1 a:hover{
+    text-decoration: underline;
+    padding-left: 10px;
+    color: gold;
+
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <center>
+            <div class="nav">
+                <h1>Questions And Answers</h1>
+            </div>
+        </center>
+        <div class="ques1">
+            <a href="https://www.w3schools.com/cssref/css_ref_pseudo_classes.php">1.What is Pseudo classes?</a>
+            <a href="https://www.w3schools.com/cssref/css_ref_pseudo_elements.php">2.What is pseudo element?</a>
+            <a href="https://chatgpt.com/share/68e7c340-c540-8007-a245-be81514192f2">3.What is difference b/w Pseudo classes and elements?</a>
+            <a href="https://chatgpt.com/share/68e7c3a2-ea58-8007-a249-3a3abef1a68b">4.what is the syntex?</a>
+            <a href="https://chatgpt.com/share/68e7c609-46fc-8007-aeea-cf4c54707770">5.what is the usage?</a>
+            <a href="https://chatgpt.com/share/68e7c660-7f34-8007-b905-8ca72aea82b1">6.when we use this in the webpage?</a>
+            <a href="https://chatgpt.com/share/68e7c74e-3710-8007-affa-f52b5229624f">7.weppages that uses it?</a>
+            <a href="https://www.w3schools.com/css/css_positioning.asp">8.what is position??</a>
+            <a href="https://www.w3schools.com/css/css_positioning.asp">9.what is absolute,relative,sticky,fixed?</a>
+            <a href="https://chatgpt.com/share/68e7c78a-11c0-8007-acbf-a8c51b0c225d">10.Difference between absolute,relative,sticky,fixed?</a>
+            <a href="https://www.w3schools.com/css/css_z-index.asp">11.what is z index,why z index,and where we use z index?</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
