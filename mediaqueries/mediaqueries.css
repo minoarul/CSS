@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    display: flex;
+    margin: 60px;
+    padding: ;
+    border-style: dashed;
+    padding: 60px;
+    background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?cs=srgb&dl=daylight-environment-forest-459225.jpg&fm=jpg);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+    
+
+
+   
+}
+.second{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    
+    
+}
+@media (max-width:1200px)
+{
+.first{
+    display: flex;
+    margin: 60px;
+    padding: ;
+    border-style: dashed;
+    padding: 60px;
+    background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?cs=srgb&dl=daylight-environment-forest-459225.jpg&fm=jpg);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+}
+}
+@media (max-width:1024px)
+{
+.first{
+    display: none;
+}
+}
+@media (max-width:768px)
+{
+    .first{
+        background-color: black;
+        display: flex;
+    margin: 60px;
+    padding: ;
+    border-style: dashed;
+    padding: 60px;
+    background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?cs=srgb&dl=daylight-environment-forest-459225.jpg&fm=jpg);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    }
+    
+
+    
+}
+@media (max-width:600px)
+{
+.first{
+    display: none;
+}
+}
+
+@media (max-width:480px)
+{
+    .first{
+        display: flex;
+    margin: 60px;
+    padding: ;
+    border-style: dashed;
+    padding: 60px;
+    background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?cs=srgb&dl=daylight-environment-forest-459225.jpg&fm=jpg);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+        
+    }
+   
+
+    
+}
